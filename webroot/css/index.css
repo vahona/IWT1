@@ -1,3 +1,6 @@
+.easybank__nexgeneration__container--image {
+  width: 100%; }
+
 .easybank__navigation__list {
   list-style: none; }
 
@@ -43,3 +46,42 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   transform: translateX(-110%);
   transition: all 0.5s ease-out;
   left: -100px; }
+
+@media (min-width: 1000px) {
+  .bar {
+    display: none; }
+  .easybank-checkbox {
+    display: none; }
+  .easybank__navigation {
+    background-color: transparent;
+    color: #333333;
+    width: 200px;
+    margin-inline-start: 1rem;
+    padding: 1rem;
+    display: flex;
+    box-shadow: none;
+    top: 0;
+    margin-inline-start: 40%;
+    position: relative; }
+  input[type=checkbox]:checked + .edie__navigation {
+    transform: translateX(50%);
+    transition: none;
+    left: 0;
+    z-index: 2;
+    margin-inline-start: 1rem; }
+  .easybank__navigation__list {
+    display: flex; }
+  input[type=checkbox]:not(:checked) + .edie__navigation {
+    transform: translateX(0%);
+    transition: none;
+    left: 0;
+    margin-top: -75px; } }
+
+.easybank__nexgeneration {
+  background-image: url("../images/bg-intro-mobile.svg");
+  background-repeat: no-repeat; }
+
+@media (min-width: 400px) {
+  .easybank__nexgeneration {
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat; } }
