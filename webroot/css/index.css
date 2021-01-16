@@ -1,5 +1,8 @@
 html {
-  background-color: #e6e3e3; }
+  background-color: #f7f4f4; }
+
+body {
+  margin: 0; }
 
 .easybank__nexgeneration__container--image {
   width: 100%; }
@@ -85,7 +88,6 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   background-repeat: no-repeat; }
 
 .easybank__nexgeneration__title {
-  width: 300px;
   text-align: center;
   justify-content: center;
   color: #3e3e57;
@@ -107,3 +109,30 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   .easybank__nexgeneration {
     background-image: url("../images/bg-intro-desktop.svg");
     background-repeat: no-repeat; } }
+
+.easybank__whychoose {
+  text-align: center;
+  justify-content: center;
+  background-color: #e6e3e3;
+  padding: 1rem; }
+
+.easybank__latest__container {
+  padding: 1rem;
+  margin: 1rem; }
+
+.easybank__latest__container--confettiimg,
+.easybank__latest__container--planeimg,
+.easybank__latest__container--restaurantimg,
+.easybank__latest__container--currencyimg {
+  width: 100%;
+  border-radius: 5px; }
+
+.easybank__latest__title {
+  justify-content: center;
+  text-align: center; }
+
+.easybank__latest__container2 {
+  background-color: #ffffff;
+  padding: 1rem;
+  padding-top: 1rem;
+  margin-top: calc(1rem / -1); }

@@ -1,0 +1,27 @@
+.easybank__latest__container {
+ 
+    padding: $padding;
+    margin: $margin;
+}
+
+ 
+.easybank__latest__container--confettiimg,
+.easybank__latest__container--planeimg,
+.easybank__latest__container--restaurantimg,
+.easybank__latest__container--currencyimg {
+   width: 100%;
+   border-radius: 5px;
+
+}
+
+.easybank__latest__title {
+    justify-content: center;
+    text-align: center;
+}
+
+.easybank__latest__container2 {
+    background-color: #ffffff;
+    padding: $padding;
+    padding-top: $padding-top;
+    margin-top: calc(#{$margin} / -1);
+}
