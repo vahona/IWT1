@@ -3,6 +3,36 @@
     background-repeat: no-repeat;
 }
 
+
+
+.easybank__nexgeneration__title {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    color: #3e3e57;
+    font-size: 32px;
+}
+
+.easybank__nexgeneration__button {
+    background: linear-gradient(217deg, rgba(0, 229, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0, 255, 242, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
+
+.easybank__nexgeneration__buttoncontainer {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.easybank__nexgeneration__paragraph {
+    color: gray;
+    text-align: center;
+    justify-content: center;
+
+}
+
 @media (min-width: 400px)  {
     .easybank__nexgeneration {
     background-image: url('../images/bg-intro-desktop.svg');
