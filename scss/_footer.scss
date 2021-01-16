@@ -1,0 +1,64 @@
+.easybank__footer {
+    background-color: rgb(8, 8, 87);
+    padding: $padding;
+    text-align: center;
+    justify-content: center;
+
+    &__navigation1--lists {
+        list-style: $list-style;
+    }
+
+    &__navigation1--listanchore {
+        // color: transparent;
+        text-indent: -9999px;
+        display: inline-block;
+        
+       
+    }
+
+
+    &__navigation1--list {
+    //    margin: $margin;
+    }
+
+    &__navigation1--lists {
+        display: flex;
+    }
+}
+
+
+.facebook {
+   background-image: url('../images/icon-facebook.svg');
+   background-repeat: no-repeat;
+   padding: $padding;
+}
+
+.youtub {
+
+    background-image: url('../images/icon-youtube.svg');
+    background-repeat: no-repeat;
+    padding: $padding;
+
+}
+
+.twitter {
+
+    background-image: url('../images/icon-twitter.svg');
+    background-repeat: no-repeat;
+    padding: $padding;
+
+}
+
+.pinterest {
+    background-image: url('../images/icon-pinterest.svg');
+    background-repeat: no-repeat;
+    padding: $padding;
+
+}
+
+.instagram {
+    background-image: url('../images/icon-instagram.svg');
+    background-repeat: no-repeat;
+    padding: $padding;
+
+}

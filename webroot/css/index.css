@@ -136,3 +136,41 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   padding: 1rem;
   padding-top: 1rem;
   margin-top: calc(1rem / -1); }
+
+.easybank__footer {
+  background-color: #080857;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center; }
+  .easybank__footer__navigation1--lists {
+    list-style: none; }
+  .easybank__footer__navigation1--listanchore {
+    text-indent: -9999px;
+    display: inline-block; }
+  .easybank__footer__navigation1--lists {
+    display: flex; }
+
+.facebook {
+  background-image: url("../images/icon-facebook.svg");
+  background-repeat: no-repeat;
+  padding: 1rem; }
+
+.youtub {
+  background-image: url("../images/icon-youtube.svg");
+  background-repeat: no-repeat;
+  padding: 1rem; }
+
+.twitter {
+  background-image: url("../images/icon-twitter.svg");
+  background-repeat: no-repeat;
+  padding: 1rem; }
+
+.pinterest {
+  background-image: url("../images/icon-pinterest.svg");
+  background-repeat: no-repeat;
+  padding: 1rem; }
+
+.instagram {
+  background-image: url("../images/icon-instagram.svg");
+  background-repeat: no-repeat;
+  padding: 1rem; }
