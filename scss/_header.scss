@@ -1,0 +1,58 @@
+.easybank__navigation__list {
+    list-style: $list-style;
+
+
+}
+
+.easybank__navigation__lists--anchore {
+    text-decoration: $text-decoration;
+    margin: $margin;
+    color: black
+}
+
+.easybank {
+    position: relative
+}
+
+.bar {
+    width: 20px;
+    position: absolute;
+    right: $right;
+    top: $top;
+}
+
+
+.easybank-checkbox {
+    position: absolute;
+    top: 0;
+    right: 0.35rem;
+    zoom: 2;
+    opacity: 0;
+}
+
+
+.easybank__navigation {
+    background-color: #ffff;
+  color: white;
+  box-shadow:  1px 5px 5px  10px rgb(206, 205, 205);
+  width: 200px;
+  margin-inline-start: $margin-inline-start;
+  padding: $padding;
+  position: fixed;
+  left: -200px;
+}
+
+
+input[type=checkbox]:checked + .easybank__navigation {
+  transform: translateX(50%);
+  transition: all 0.5s ease;
+  left: -100px;
+  z-index: 2;
+  margin-inline-start: $margin-inline-start;
+}
+
+input[type=checkbox]:not(:checked) + .easybank__navigation {
+  transform: translateX(-110%);
+  transition: all 0.5s ease-out;
+  left: -100px;
+}

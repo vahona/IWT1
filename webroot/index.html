@@ -11,20 +11,27 @@
 </head>
 
 <body>
-	<header>
-		<h1>easybank</h1>
-		<nav>
-			<ul>
-				<li><a href="home">Home</a></li>
-				<li><a href="About">About</a></li>
-				<li><a href="contact">Contact</a></li>
-				<li><a href="blog">Blog</a></li>
-				<li><a href="careers">Careers</a></li>
+	<header class="easybank">
+		<h1 class="easybank__logo"><img src="./images/logo.svg" alt=""></h1>
+		 <label for="check">
+      <img class="bar" src="./images/icon-hamburger.svg" alt="">
+    </label>
+    <input type="checkbox" id="check" class="easybank-checkbox">
+		<nav class="easybank__navigation">
+			<ul class="easybank__navigation__list">
+				<li class="easybank__navigation__lists"><a class="easybank__navigation__lists--anchore home" href="home">Home</a></li>
+				<li class="easybank__navigation__lists"><a class="easybank__navigation__lists--anchore about" href="About">About</a></li>
+				<li class="easybank__navigation__lists"><a class="easybank__navigation__lists--anchore contact" href="contact">Contact</a></li>
+				<li class="easybank__navigation__lists"><a class="easybank__navigation__lists--anchore blog" href="blog">Blog</a></li>
+				<li class="easybank__navigation__lists"><a class="easybank__navigation__lists--anchore career" href="careers">Careers</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
 		<section>
+			<div>
+				<img src="./images/image-mockups.png" alt="">
+			</div>
 			<h2>Next generation digital banking</h2>
 			<p>
 				Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving,

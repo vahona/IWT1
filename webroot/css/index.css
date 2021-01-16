@@ -1,0 +1,45 @@
+.easybank__navigation__list {
+  list-style: none; }
+
+.easybank__navigation__lists--anchore {
+  text-decoration: none;
+  margin: 1rem;
+  color: black; }
+
+.easybank {
+  position: relative; }
+
+.bar {
+  width: 20px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem; }
+
+.easybank-checkbox {
+  position: absolute;
+  top: 0;
+  right: 0.35rem;
+  zoom: 2;
+  opacity: 0; }
+
+.easybank__navigation {
+  background-color: #ffff;
+  color: white;
+  box-shadow: 1px 5px 5px 10px #cecdcd;
+  width: 200px;
+  margin-inline-start: 1rem;
+  padding: 1rem;
+  position: fixed;
+  left: -200px; }
+
+input[type=checkbox]:checked + .easybank__navigation {
+  transform: translateX(50%);
+  transition: all 0.5s ease;
+  left: -100px;
+  z-index: 2;
+  margin-inline-start: 1rem; }
+
+input[type=checkbox]:not(:checked) + .easybank__navigation {
+  transform: translateX(-110%);
+  transition: all 0.5s ease-out;
+  left: -100px; }
