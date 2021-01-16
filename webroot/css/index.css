@@ -147,6 +147,9 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   .easybank__footer__navigation1--listanchore {
     text-indent: -9999px;
     display: inline-block; }
+  .easybank__footer__navigation2--lists {
+    list-style: none;
+    color: white; }
   .easybank__footer__navigation1--lists {
     display: flex; }
 
