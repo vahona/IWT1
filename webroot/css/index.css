@@ -146,7 +146,9 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   .easybank__whychoose {
     text-align: start; }
   .easybank__whychoose__article {
-    margin-left: 1rem; } }
+    margin-left: 1rem; }
+  .easybank__latest__conatainer {
+    display: flex; } }
 
 .easybank__latest__container {
   padding: 1rem;
