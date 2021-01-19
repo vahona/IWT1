@@ -83,6 +83,23 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     left: 0;
     margin-top: -75px; } }
 
+.easybank__button {
+  background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: calc(1rem * 2);
+  padding-right: calc(1rem * 2);
+  border-radius: 20px;
+  border: none;
+  color: white; }
+
+.easybank__footer__navigation2--listanchore {
+  text-decoration: none;
+  color: white; }
+
+.easybank__footer__navigation2--list {
+  margin: 1rem; }
+
 .easybank__nexgeneration {
   background-image: url("../images/bg-intro-mobile.svg");
   background-repeat: no-repeat; }
@@ -103,7 +120,8 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   padding-left: calc(1rem * 2);
   padding-right: calc(1rem * 2);
   border-radius: 20px;
-  border: none; }
+  border: none;
+  color: white; }
 
 .easybank__nexgeneration__buttoncontainer {
   text-align: center;
@@ -191,6 +209,19 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     list-style: none;
     color: white; }
   .easybank__footer__navigation1--lists {
+    display: flex; }
+  .easybank__footer__button {
+    background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: calc(1rem * 2);
+    padding-right: calc(1rem * 2);
+    border-radius: 20px;
+    border: none;
+    color: white; }
+  .easybank__footer__container {
+    justify-content: center;
+    text-align: center;
     display: flex; }
 
 .facebook {

@@ -29,6 +29,23 @@
     &__navigation1--lists {
         display: flex;
     }
+
+    &__button {
+         background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+        padding-left: calc(#{$padding-left} * 2);
+        padding-right: calc(#{$padding-right} * 2);
+        border-radius: 20px;
+        border: none;
+        color: white
+    }
+
+   &__container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
 }
 
 
@@ -67,3 +84,4 @@
     padding: $padding;
 
 }
+
