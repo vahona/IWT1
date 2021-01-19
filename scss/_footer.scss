@@ -38,7 +38,8 @@
         padding-right: calc(#{$padding-right} * 2);
         border-radius: 20px;
         border: none;
-        color: white
+        color: white;
+       
     }
 
    &__container {
@@ -85,3 +86,16 @@
 
 }
 
+.easybank__footer__indication {
+    color: rgb(192, 192, 192);
+}
+
+@media (min-width: 400px) {
+    .easybank__footer {
+        display: flex;
+    }
+
+    .easybank__footer__navigation2--lists {
+        columns: 2;
+    }
+}

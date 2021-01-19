@@ -121,7 +121,8 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   padding-right: calc(1rem * 2);
   border-radius: 20px;
   border: none;
-  color: white; }
+  color: white;
+  margin: 1rem; }
 
 .easybank__nexgeneration__buttoncontainer {
   text-align: center;
@@ -248,3 +249,12 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   background-image: url("../images/icon-instagram.svg");
   background-repeat: no-repeat;
   padding: 1rem; }
+
+.easybank__footer__indication {
+  color: silver; }
+
+@media (min-width: 400px) {
+  .easybank__footer {
+    display: flex; }
+  .easybank__footer__navigation2--lists {
+    columns: 2; } }
