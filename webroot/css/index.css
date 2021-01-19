@@ -97,7 +97,13 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   font-size: 32px; }
 
 .easybank__nexgeneration__button {
-  background: linear-gradient(217deg, #33D35E, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 242, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); }
+  background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: calc(1rem * 2);
+  padding-right: calc(1rem * 2);
+  border-radius: 20px;
+  border: none; }
 
 .easybank__nexgeneration__buttoncontainer {
   text-align: center;
