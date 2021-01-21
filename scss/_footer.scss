@@ -90,6 +90,14 @@
     color: rgb(192, 192, 192);
 }
 
+.easybank__footer__indication {
+    margin-top: calc(#{$margin-top} * 3)
+}
+
+.easybank__footer__container {
+    margin-top: calc(#{$margin-top} * 3);
+}
+
 @media (min-width: 400px) {
     .easybank__footer {
         display: flex;
@@ -97,5 +105,13 @@
 
     .easybank__footer__navigation2--lists {
         columns: 2;
+    }
+
+    .easybank__footer__container3, 
+    .easybank__footer__container2,
+    .easybank__footer__containerlogo {
+        margin-left: calc(#{$margin-left} * 5);
+        margin-right: calc(#{$margin-right} * 5);
+        margin-top: calc(#{$margin-top} * 2);
     }
 }

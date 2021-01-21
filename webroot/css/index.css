@@ -253,8 +253,20 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 .easybank__footer__indication {
   color: silver; }
 
+.easybank__footer__indication {
+  margin-top: calc(1rem * 3); }
+
+.easybank__footer__container {
+  margin-top: calc(1rem * 3); }
+
 @media (min-width: 400px) {
   .easybank__footer {
     display: flex; }
   .easybank__footer__navigation2--lists {
-    columns: 2; } }
+    columns: 2; }
+  .easybank__footer__container3,
+  .easybank__footer__container2,
+  .easybank__footer__containerlogo {
+    margin-left: calc(1rem * 5);
+    margin-right: calc(1rem * 5);
+    margin-top: calc(1rem * 2); } }
