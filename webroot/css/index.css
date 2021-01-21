@@ -191,6 +191,10 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   width: 100%;
   border-radius: 5px; }
 
+.easybank__latest__bigcontainer {
+  margin-inline-start: calc(1rem * 5);
+  margin-inline-end: calc(1rem * 5); }
+
 .easybank__latest__title {
   justify-content: center;
   text-align: center; }
