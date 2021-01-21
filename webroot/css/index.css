@@ -23,6 +23,9 @@ body {
 .easybank {
   position: relative; }
 
+.easybank__button {
+  display: none; }
+
 .bar {
   width: 20px;
   position: absolute;
@@ -81,22 +84,27 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     z-index: 2;
     margin-inline-start: 1rem; }
   .easybank__navigation__list {
-    display: flex; }
+    display: flex;
+    margin-top: calc(1rem * -4);
+    margin-inline-start: calc(1rem * 20); }
   input[type=checkbox]:not(:checked) + .edie__navigation {
     transform: translateX(0%);
     transition: none;
     left: 0;
-    margin-top: -75px; } }
-
-.easybank__button {
-  background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: calc(1rem * 2);
-  padding-right: calc(1rem * 2);
-  border-radius: 20px;
-  border: none;
-  color: white; }
+    margin-top: -75px; }
+  .easybank__button {
+    display: block;
+    background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: calc(1rem * 2);
+    padding-right: calc(1rem * 2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: calc(1rem * -6);
+    margin-bottom: calc(1rem * 1);
+    margin-inline-start: 80%; } }
 
 .easybank__footer__navigation2--listanchore {
   text-decoration: none;
@@ -108,9 +116,6 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 .easybank__nexgeneration {
   background-image: url("../images/bg-intro-mobile.svg");
   background-repeat: no-repeat; }
-
-.easybank__button {
-  display: none; }
 
 .easybank__nexgeneration__title {
   text-align: center;
@@ -160,9 +165,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   .easybank__nexgeneration__paragraph {
     width: 80%; }
   .easybank__nexgeneration__container1 {
-    grid-column: 2; }
-  .easybank__button {
-    display: block; } }
+    grid-column: 2; } }
 
 .easybank__whychoose {
   text-align: center;
@@ -177,12 +180,12 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     text-align: start; }
   .easybank__whychoose__article {
     margin-left: 1rem; }
-  .easybank__latest__conatainer {
-    display: flex; } }
+  .easybank__whychoose__mainContainer {
+    margin-inline-start: calc(1rem * 5);
+    margin-inline-end: calc(1rem * 5); } }
 
 .easybank__latest__container {
-  padding: 1rem;
-  margin: 1rem; }
+  padding: 1rem; }
 
 .easybank__latest__container--confettiimg,
 .easybank__latest__container--planeimg,
@@ -204,7 +207,9 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 @media (min-width: 800px) {
   .easybank__latest__bigcontainer {
     margin-inline-start: calc(1rem * 5);
-    margin-inline-end: calc(1rem * 5); } }
+    margin-inline-end: calc(1rem * 5); }
+  .easybank__latest__conatainer {
+    display: flex; } }
 
 .easybank__footer {
   background-color: #080857;

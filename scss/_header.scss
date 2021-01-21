@@ -14,6 +14,10 @@
     position: relative
 }
 
+.easybank__button {
+  display: none;
+}
+
 .bar {
     width: 20px;
     position: absolute;
@@ -58,6 +62,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 }
 
 
+
 @media (min-width: 1000px) {
    .bar {
     display: none;
@@ -67,8 +72,6 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     display: none;
   }
 
-
-  
 
 
   .easybank__navigation {
@@ -97,6 +100,8 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 
   .easybank__navigation__list {
     display: flex;
+    margin-top: calc(#{$margin-top} * -4);
+    margin-inline-start: calc(#{$margin-inline-start} * 20);
   }
 
   input[type=checkbox]:not(:checked) + .edie__navigation {
@@ -105,9 +110,9 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     left: 0;
     margin-top: -75px;
   }
-}
 
-.easybank__button {
+  .easybank__button {
+    display: block;
     background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
     padding-top: $padding-top;
     padding-bottom: $padding-bottom;
@@ -115,8 +120,15 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     padding-right: calc(#{$padding-right} * 2);
     border-radius: 20px;
     border: none;
-    color: white
+    color: white;
+    margin-top: calc(#{$margin-top} * -6);
+    margin-bottom: calc(#{$margin-bottom} * 1);
+    margin-inline-start: 80%;
+    
 }
+}
+
+
 
 .easybank__footer__navigation2--listanchore {
   text-decoration: $text-decoration;

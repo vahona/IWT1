@@ -6,6 +6,9 @@
     padding: $padding;
 }
 
+
+ 
+
 @media (min-width: 800px)  {
    
     .easybank__whychoose__container {
@@ -20,7 +23,9 @@
        margin-left: $margin-right;
    }
 
-   .easybank__latest__conatainer {
-       display: flex;
+
+   .easybank__whychoose__mainContainer {
+        margin-inline-start: calc(#{$margin-inline-start} * 5) ;
+        margin-inline-end: calc(#{$margin-inline-end} * 5) ;
    }
 }

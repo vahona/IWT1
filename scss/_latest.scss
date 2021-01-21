@@ -1,6 +1,6 @@
 .easybank__latest__container {
     padding: $padding;
-    margin: $margin;
+
 }
 
  
@@ -33,4 +33,9 @@
     margin-inline-start: calc(#{$margin-inline-start} * 5) ;
     margin-inline-end: calc(#{$margin-inline-end} * 5) ;
 }
+
+
+.easybank__latest__conatainer {
+       display: flex;
+   }
 }
