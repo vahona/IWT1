@@ -1,117 +1,130 @@
 .easybank__footer {
-    background-color: rgb(8, 8, 87);
-    padding: $padding;
-    text-align: center;
-    justify-content: center;
+  background-color: rgb(8, 8, 87);
+  padding: $padding;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-between;
 
-    &__navigation1--lists {
-        list-style: $list-style;
-    }
+  &__navigation1--lists {
+    list-style: $list-style;
+  }
 
-    &__navigation1--listanchore {
-        // color: transparent;
-        text-indent: -9999px;
-        display: inline-block;
-        
-       
-    }
+  &__navigation1--listanchore {
+    // color: transparent;
+    text-indent: -9999px;
+    display: inline-block;
+  }
 
-    &__navigation2--lists {
-        list-style: $list-style;
-        color: white;
-    }
+  &__navigation2--lists {
+    list-style: $list-style;
+    color: white;
+  }
 
-
-    &__navigation1--list {
+  &__navigation1--list {
     //    margin: $margin;
-    }
+  }
 
-    &__navigation1--lists {
-        display: flex;
-    }
+  &__navigation1--lists {
+    display: flex;
+  }
 
-    &__button {
-         background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
-        padding-top: $padding-top;
-        padding-bottom: $padding-bottom;
-        padding-left: calc(#{$padding-left} * 2);
-        padding-right: calc(#{$padding-right} * 2);
-        border-radius: 20px;
-        border: none;
-        color: white;
-       
-    }
+  &__button {
+    background: linear-gradient(90deg, #33d35e, rgba(0, 255, 242, 0.8));
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    padding-left: calc(#{$padding-left} * 2);
+    padding-right: calc(#{$padding-right} * 2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
 
-   &__container {
+  &__container {
     justify-content: center;
     text-align: center;
     display: flex;
+  }
 }
-}
-
 
 .facebook {
-   background-image: url('../images/icon-facebook.svg');
-   background-repeat: no-repeat;
-   padding: $padding;
+  background-image: url("../images/icon-facebook.svg");
+  background-repeat: no-repeat;
+  padding: $padding;
 }
 
 .youtub {
-
-    background-image: url('../images/icon-youtube.svg');
-    background-repeat: no-repeat;
-    padding: $padding;
-
+  background-image: url("../images/icon-youtube.svg");
+  background-repeat: no-repeat;
+  padding: $padding;
 }
 
 .twitter {
-
-    background-image: url('../images/icon-twitter.svg');
-    background-repeat: no-repeat;
-    padding: $padding;
-
+  background-image: url("../images/icon-twitter.svg");
+  background-repeat: no-repeat;
+  padding: $padding;
 }
 
 .pinterest {
-    background-image: url('../images/icon-pinterest.svg');
-    background-repeat: no-repeat;
-    padding: $padding;
-
+  background-image: url("../images/icon-pinterest.svg");
+  background-repeat: no-repeat;
+  padding: $padding;
 }
 
 .instagram {
-    background-image: url('../images/icon-instagram.svg');
-    background-repeat: no-repeat;
-    padding: $padding;
-
+  background-image: url("../images/icon-instagram.svg");
+  background-repeat: no-repeat;
+  padding: $padding;
 }
 
 .easybank__footer__indication {
-    color: rgb(192, 192, 192);
+  color: rgb(192, 192, 192);
 }
 
 .easybank__footer__indication {
-    margin-top: calc(#{$margin-top} * 3)
+   margin-top: calc(#{$margin-top} * 3); 
 }
 
-.easybank__footer__container {
+@media (min-width: 600px) {
+  .easybank__footer {
+    display: flex;
+  }
+
+   .easybank__footer {
+    justify-content: space-between;
+  }
+
+   .easybank__footer__navigation2--lists {
+    columns: 2;
+  }
+
+}
+
+@media (min-width:1000px) {
+  .easybank__footer {
+    display: flex;
+  }
+
+  .easybank__footer__indication {
     margin-top: calc(#{$margin-top} * 3);
-}
+  }
 
-@media (min-width: 400px) {
-    .easybank__footer {
-        display: flex;
-    }
+  .easybank__footer__container {
+    margin-top: calc(#{$margin-top} * 3);
+  }
 
-    .easybank__footer__navigation2--lists {
-        columns: 2;
-    }
+  .easybank__footer__navigation2--lists {
+    columns: 2;
+  }
 
-    .easybank__footer__container3, 
-    .easybank__footer__container2,
-    .easybank__footer__containerlogo {
-        margin-left: calc(#{$margin-left} * 5);
-        margin-right: calc(#{$margin-right} * 5);
-        margin-top: calc(#{$margin-top} * 2);
-    }
+  .easybank__footer {
+  justify-content: space-between;
+  }
+
+  .easybank__footer__container3,
+  .easybank__footer__container2,
+  .easybank__footer__containerlogo {
+    margin-left: calc(#{$margin-left} * 3.5);
+    margin-right: calc(#{$margin-right} * 5);
+    margin-top: calc(#{$margin-top} * 2);
+  }
 }

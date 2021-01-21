@@ -14,10 +14,7 @@
 }
 
 
-.easybank__latest__bigcontainer {
-    margin-inline-start: calc(#{$margin-inline-start} * 5) ;
-    margin-inline-end: calc(#{$margin-inline-end} * 5) ;
-}
+
 
 .easybank__latest__title {
     justify-content: center;
@@ -32,5 +29,8 @@
 }
 
 @media (min-width: 800px) {
-
+    .easybank__latest__bigcontainer {
+    margin-inline-start: calc(#{$margin-inline-start} * 5) ;
+    margin-inline-end: calc(#{$margin-inline-end} * 5) ;
+}
 }
