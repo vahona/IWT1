@@ -152,20 +152,15 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 400px -300px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    display: flex; }
   .easybank__nexgeneration__container1 {
     display: block; }
   .easybank__nexgeneration__container {
     display: none; }
-  .easybank__nexgeneration__container2 {
-    grid-column: 1; }
   .easybank__nexgeneration__title {
     width: 80%; }
   .easybank__nexgeneration__paragraph {
-    width: 80%; }
-  .easybank__nexgeneration__container1 {
-    grid-column: 2; } }
+    width: 80%; } }
 
 .easybank__whychoose {
   text-align: center;
