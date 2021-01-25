@@ -146,7 +146,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 .easybank__nexgeneration__container1 {
   display: none; }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .easybank__nexgeneration {
     background-image: url("../images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
