@@ -29,4 +29,10 @@
         margin-inline-start: calc(#{$margin-inline-start} * 5) ;
         margin-inline-end: calc(#{$margin-inline-end} * 5) ;
    }
+
+   .easybank__whychoose__mainContainer--paragrath {
+       margin-top: calc(#{$margin-top} * 4);
+       margin-bottom: calc(#{$margin-bottom} * 3);
+       width: 500px;
+   }
 }

@@ -195,7 +195,11 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     margin-left: 1rem; }
   .easybank__whychoose__mainContainer {
     margin-inline-start: calc(1rem * 5);
-    margin-inline-end: calc(1rem * 5); } }
+    margin-inline-end: calc(1rem * 5); }
+  .easybank__whychoose__mainContainer--paragrath {
+    margin-top: calc(1rem * 4);
+    margin-bottom: calc(1rem * 3);
+    width: 500px; } }
 
 .easybank__latest__container {
   padding: 1rem; }
