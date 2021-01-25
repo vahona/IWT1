@@ -17,6 +17,7 @@
 
     .easybank__whychoose {
         text-align: start;
+        margin-top: calc(#{$margin-top} * -10);
     }
 
    .easybank__whychoose__article {
