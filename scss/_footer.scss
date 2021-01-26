@@ -46,7 +46,14 @@
     text-align: center;
     display: flex;
   }
+
+  &__container2 {
+    font-family: Lato;
+  }
+
 }
+
+
 
 .facebook {
   background-image: url("../images/icon-facebook.svg");
@@ -97,9 +104,11 @@
 
    .easybank__footer__navigation2--lists {
     columns: 2;
+    column-gap: 5rem;
   }
 
 }
+
 
 @media (min-width:1000px) {
   .easybank__footer {
@@ -129,4 +138,25 @@
     margin-right: calc(#{$margin-right} * 5);
     margin-top: calc(#{$margin-top} * 2);
   }
+
+ 
 }
+
+    .easybank__footer__button {
+       margin-top: calc(#{$margin-top} * 1.5);
+    }
+
+
+    .easybank__footer__containerlogo {
+      margin-top: calc(#{$margin-top} * 2);
+  }
+
+ 
+
+    .aboutlist {
+      margin-top: calc(#{$margin-top} * -0.5);
+  }
+   
+    .supportlist {
+      margin-top: calc(#{$margin-top} * 1);
+  }
