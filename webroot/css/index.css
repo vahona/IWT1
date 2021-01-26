@@ -15,8 +15,12 @@ body {
 .easybank__navigation__list {
   list-style: none; }
 
+.easybank__nexgeneration__container {
+  margin-inline-start: calc(1rem / 2);
+  margin-inline-end: calc(1rem / 2); }
+
 .easybank__logo {
-  margin-left: calc(1rem * 4); }
+  margin-left: calc(1rem / 2); }
 
 .easybank__navigation__lists--anchore {
   text-decoration: none;
@@ -107,7 +111,9 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     color: white;
     margin-top: calc(1rem * -6);
     margin-bottom: calc(1rem * 1);
-    margin-inline-start: 80%; } }
+    margin-inline-start: 80%; }
+  .easybank__logo {
+    margin-left: calc(1rem * 4); } }
 
 .easybank__footer__navigation2--listanchore {
   text-decoration: none;

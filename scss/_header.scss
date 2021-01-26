@@ -4,8 +4,13 @@
 
 }
 
+.easybank__nexgeneration__container {
+  margin-inline-start: calc(#{$margin-inline-start} / 2);
+   margin-inline-end: calc(#{$margin-inline-end} / 2);
+}
+
 .easybank__logo {
- margin-left: calc(#{$margin-left} * 4);
+ margin-left: calc(#{$margin-left} / 2);
 }
 
 .easybank__navigation__lists--anchore {
@@ -129,6 +134,10 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     margin-bottom: calc(#{$margin-bottom} * 1);
     margin-inline-start: 80%;
     
+}
+
+.easybank__logo {
+ margin-left: calc(#{$margin-left} * 4);
 }
 
  
