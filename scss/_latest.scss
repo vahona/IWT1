@@ -14,11 +14,39 @@
 }
 
 
+.easybank__latest__container--restaurantimg {
+    padding-bottom: calc(#{$padding-bottom} / 2);
+}
 
+
+.easybank__latest__paragraph {
+    color: rgb(177, 174, 174);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.easybank__latest__subtitle {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.easybank__latest__name {
+    font-family: Lato;
+    color: rgb(170, 169, 169);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 .easybank__latest__title {
-    justify-content: center;
-    text-align: center;
+    margin-inline-start: $margin-inline-start ;
+    font-family: roboto;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .easybank__latest__container2 {

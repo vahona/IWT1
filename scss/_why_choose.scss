@@ -6,7 +6,34 @@
     padding: $padding;
 }
 
+.easybank__whychoose__title {
+    font-family: Arial;
+    font-size: 32;
+    font-weight: 500;
+    line-height: 24px;
 
+}
+
+.easybank__whychoose__mainContainer--paragrath {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.easybank__whychoose__subtitle {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.easybank__whychoose__paragraph {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
  
 
 @media (min-width: 800px)  {

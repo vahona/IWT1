@@ -13,7 +13,8 @@ body {
   width: 100%; }
 
 .easybank__navigation__list {
-  list-style: none; }
+  list-style: none;
+  font-family: roboto; }
 
 .easybank__nexgeneration__container {
   margin-inline-start: calc(1rem / 2);
@@ -124,13 +125,16 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 
 .easybank__nexgeneration {
   background-image: url("../images/bg-intro-mobile.svg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  font-family: Lato; }
 
 .easybank__nexgeneration__title {
   text-align: center;
   justify-content: center;
   color: #3e3e57;
-  font-size: 32px; }
+  font-size: 38px;
+  line-height: 50px;
+  font-weight: 700; }
 
 .easybank__nexgeneration__button {
   background: linear-gradient(90deg, #33D35E, rgba(0, 255, 242, 0.8));
@@ -150,7 +154,10 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
 .easybank__nexgeneration__paragraph {
   color: gray;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
 
 .easybank__nexgeneration__container1 {
   display: none; }
@@ -194,6 +201,30 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   background-color: #e6e3e3;
   padding: 1rem; }
 
+.easybank__whychoose__title {
+  font-family: Arial;
+  font-size: 32;
+  font-weight: 500;
+  line-height: 24px; }
+
+.easybank__whychoose__mainContainer--paragrath {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.easybank__whychoose__subtitle {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px; }
+
+.easybank__whychoose__paragraph {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px; }
+
 @media (min-width: 800px) {
   .easybank__whychoose__container {
     display: flex; }
@@ -222,9 +253,34 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   width: 100%;
   border-radius: 5px; }
 
+.easybank__latest__container--restaurantimg {
+  padding-bottom: calc(1rem / 2); }
+
+.easybank__latest__paragraph {
+  color: #b1aeae;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px; }
+
+.easybank__latest__subtitle {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px; }
+
+.easybank__latest__name {
+  font-family: Lato;
+  color: #aaa9a9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
 .easybank__latest__title {
-  justify-content: center;
-  text-align: center; }
+  margin-inline-start: 1rem;
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: 400; }
 
 .easybank__latest__container2 {
   background-color: #ffffff;

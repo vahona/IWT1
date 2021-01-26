@@ -1,19 +1,20 @@
 .easybank__nexgeneration {
     background-image: url('../images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
+    font-family: Lato;
    
 }
 
-.easybank__nexgeneration__container--image {
-    
-}
 
 
 .easybank__nexgeneration__title {
     text-align: center;
     justify-content: center;
     color: #3e3e57;
-    font-size: 32px;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+
 }
 
 .easybank__nexgeneration__button {
@@ -40,6 +41,9 @@
     color: gray;
     text-align: center;
     justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 
 }
 
