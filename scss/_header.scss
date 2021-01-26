@@ -4,6 +4,10 @@
 
 }
 
+.easybank__logo {
+ margin-left: calc(#{$margin-left} * 4);
+}
+
 .easybank__navigation__lists--anchore {
     text-decoration: $text-decoration;
     margin: $margin;
