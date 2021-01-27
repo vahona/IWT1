@@ -85,16 +85,10 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     top: 0;
     margin-inline-start: 40%;
     position: relative; }
-  input[type=checkbox]:checked + .easybank__navigation {
-    transform: translateX(50%);
-    transition: none;
-    left: 0;
-    z-index: 2;
-    margin-inline-start: 1rem; }
   .easybank__navigation__list {
     display: flex;
-    margin-top: calc(1rem * -4);
-    margin-inline-start: calc(1rem * 20); }
+    margin-top: calc(1rem * 1);
+    margin-inline-start: calc(1rem * 2); }
   input[type=checkbox]:not(:checked) + .easybank__navigation {
     transform: translateX(0%);
     transition: none;
@@ -110,7 +104,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     border-radius: 20px;
     border: none;
     color: white;
-    margin-top: calc(1rem * -6);
+    margin-top: calc(1rem * -4);
     margin-bottom: calc(1rem * 1);
     margin-inline-start: 80%; }
   .easybank__logo {

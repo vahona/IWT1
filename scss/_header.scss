@@ -98,20 +98,14 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   
   }
 
-  input[type=checkbox]:checked + .easybank__navigation {
-    transform: translateX(50%);
-    transition: none;
-    left: 0;
-    z-index: 2;
-    margin-inline-start: $margin-inline-start;
-    
-  }
+  
 
 
   .easybank__navigation__list {
     display: flex;
-    margin-top: calc(#{$margin-top} * -4);
-    margin-inline-start: calc(#{$margin-inline-start} * 20);
+    margin-top: calc(#{$margin-top} * 1);
+    margin-inline-start: calc(#{$margin-inline-start} * 2);
+    
   }
 
   input[type=checkbox]:not(:checked) + .easybank__navigation {
@@ -131,7 +125,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     border-radius: 20px;
     border: none;
     color: white;
-    margin-top: calc(#{$margin-top} * -6);
+    margin-top: calc(#{$margin-top} * -4);
     margin-bottom: calc(#{$margin-bottom} * 1);
     margin-inline-start: 80%;
     
