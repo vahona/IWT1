@@ -98,7 +98,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   
   }
 
-  input[type=checkbox]:checked + .edie__navigation {
+  input[type=checkbox]:checked + .easybank__navigation {
     transform: translateX(50%);
     transition: none;
     left: 0;
@@ -154,6 +154,3 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
   margin: $margin;
 }
 
-// .easybank__container {
-//   display: flex;
-// }

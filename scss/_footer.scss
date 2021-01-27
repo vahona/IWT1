@@ -142,6 +142,15 @@
  
 }
 
+
+  .easybank__footer__bigcontainer {
+    margin: 1rem;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
     .easybank__footer__button {
        margin-top: calc(#{$margin-top} * 1.5);
     }
