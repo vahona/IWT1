@@ -95,7 +95,7 @@ input[type=checkbox]:not(:checked) + .easybank__navigation {
     display: flex;
     margin-top: calc(1rem * -4);
     margin-inline-start: calc(1rem * 20); }
-  input[type=checkbox]:not(:checked) + .edie__navigation {
+  input[type=checkbox]:not(:checked) + .easybank__navigation {
     transform: translateX(0%);
     transition: none;
     left: 0;
